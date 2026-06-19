@@ -182,6 +182,9 @@
   .mt-\[20px\] {
     margin-top: 20px;
   }
+  .mt-\[25px\] {
+    margin-top: 25px;
+  }
   .mt-\[30px\] {
     margin-top: 30px;
   }
@@ -208,6 +211,12 @@
   }
   .h-\[50px\] {
     height: 50px;
+  }
+  .h-\[60px\] {
+    height: 60px;
+  }
+  .h-\[100px\] {
+    height: 100px;
   }
   .h-\[150px\] {
     height: 150px;
@@ -334,6 +343,9 @@
   }
   .gap-\[40px\] {
     gap: 40px;
+  }
+  .gap-\[50px\] {
+    gap: 50px;
   }
   .overflow-auto {
     overflow: auto;
