@@ -18,6 +18,8 @@
     --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
+    --text-4xl: 2.25rem;
+    --text-4xl--line-height: calc(2.5 / 2.25);
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
     --font-weight-normal: 400;
@@ -257,6 +259,9 @@
   .w-\[50px\] {
     width: 50px;
   }
+  .w-\[70px\] {
+    width: 70px;
+  }
   .w-\[100\%\] {
     width: 100%;
   }
@@ -320,6 +325,9 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-0 {
+    gap: 0;
+  }
   .gap-\[5px\] {
     gap: 5px;
   }
@@ -344,8 +352,14 @@
   .gap-\[40px\] {
     gap: 40px;
   }
+  .gap-\[45px\] {
+    gap: 45px;
+  }
   .gap-\[50px\] {
     gap: 50px;
+  }
+  .gap-\[px\] {
+    gap: px;
   }
   .overflow-auto {
     overflow: auto;
@@ -398,12 +412,19 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
   }
+  .border-b-\[0\.5\] {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 0.5;
+  }
   .border-b-\[0\.5px\] {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 0.5px;
   }
   .border-gray-600 {
     border-color: var(--color-gray-600);
+  }
+  .border-gray-700 {
+    border-color: var(--color-gray-700);
   }
   .bg-\[\#2A79C2\] {
     background-color: #2A79C2;
@@ -419,6 +440,9 @@
   }
   .bg-\[\#EEF1F4\] {
     background-color: #EEF1F4;
+  }
+  .bg-white {
+    background-color: var(--color-white);
   }
   .bg-linear-0 {
     --tw-gradient-position: 0deg;
@@ -456,8 +480,17 @@
   .pt-\[25px\] {
     padding-top: 25px;
   }
+  .pt-\[45px\] {
+    padding-top: 45px;
+  }
   .pt-\[70px\] {
     padding-top: 70px;
+  }
+  .pb-\[1\] {
+    padding-bottom: 1;
+  }
+  .pb-\[15px\] {
+    padding-bottom: 15px;
   }
   .text-center {
     text-align: center;
@@ -469,6 +502,10 @@
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
+  .text-4xl {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height));
   }
   .text-5xl {
     font-size: var(--text-5xl);
