@@ -226,6 +226,12 @@
   .h-\[200px\] {
     height: 200px;
   }
+  .h-\[250px\] {
+    height: 250px;
+  }
+  .h-\[300px\] {
+    height: 300px;
+  }
   .h-\[450px\] {
     height: 450px;
   }
@@ -300,6 +306,9 @@
   }
   .w-\[1000px\] {
     width: 1000px;
+  }
+  .max-w-3 {
+    max-width: calc(var(--spacing) * 3);
   }
   .max-w-300 {
     max-width: calc(var(--spacing) * 300);
